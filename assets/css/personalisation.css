@@ -1,0 +1,377 @@
+/*   page caisse */
+
+.selectvet1{
+  background:#2A3F6B;
+  display: inline-block;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+  color: white;
+  text-align: center;
+  }
+  .selectvet2{
+  background:#000;
+  display: inline-block;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.38);
+  color: white;
+  text-align: center;
+  }
+  .selectGenre1{
+  background:#737373;
+  width: 32.1%;
+  border-right-color: rgba(255, 255, 255, 0.27);
+  border-bottom-style: none;
+  border-bottom-color: rgba(255, 255, 255, 0.29);
+  }
+  .selectGenre2{
+  background:#2A3F6B;
+  width: 32.1%;
+  border-right-color: rgba(255, 255, 255, 0.27);
+  border-bottom-style: none;
+  border-bottom-color: rgba(255, 255, 255, 0.29);
+  }
+  #defaultVet,#defaultLng{
+  background:red;
+  }
+  
+  #validerAutre{
+  display:none;
+  }
+  #formAutreProd{
+  display:block;
+  }
+  
+  .bl-vetement.bl-cat-vet {
+  width: 33.3%;
+  border-right-color: rgba(255, 255, 255, 0.27);
+  
+  border-bottom-color: rgba(255, 255, 255, 0.27);
+    padding-top: 10px;
+	 padding-bottom: 10px;
+}
+  #cath-vetement{
+  display:block;
+  }
+  #cath-lingerie{
+  display:none;
+  }
+  #cathegorie{
+  margin-left: 10px;
+  height:300px;
+  margin-right: -10px;
+  }
+  #produits{
+ 
+  overflow-y: scroll;
+  width:98%;
+  height:430px;
+  padding-left: 18px;
+  }
+#commande{
+margin-top:10px;
+margin-bottom:10px;
+text-decoration:none;
+color:#fff;
+}
+
+/* style light box */
+
+
+.choix-option1{
+padding:20px;
+margin:20px;
+border-radius:10px;
+background:#18952a;
+width:40%;
+}
+
+.choix-option2{
+padding:20px;
+margin:20px;
+border-radius:10px;
+  background:#fff;
+width:43%;
+color:#546e7a;
+}
+
+#content-lightBox{
+display:block;
+}
+#type-content-lightBox{
+display:inline-block;
+width:78%;
+
+}
+#couleur-content-lightBox{
+display:inline-block;
+width:20%;
+border:1px solid #333;
+}
+#item-type-content-lightBox{
+display:inline-block;
+width:30%;
+border:1px solid #adadad;
+margin-top:10px;
+margin-bottom:10px;
+min-height:100px;
+padding:50px;
+}
+#valid-content-lightBox{
+display:block;
+margin:50px;
+}
+#Prod-valid-content-lightBox{
+display:inline-block;
+width:70%;
+}
+#Btn-valid-content-lightBox{
+display:inline-block;
+width:25%;
+}
+#NomProduitLightBox{
+margin-left:50px;
+text-transform: uppercase;
+font-size:20px;
+}
+.valid{
+color:#fff;
+background:#1e88e5;
+padding: 23px;
+text-decoration:none;
+float:left;
+text-align: center;
+}
+
+#bl-gerer-client{
+margin-top:0px;
+margin-bottom:10px;
+display:inline-block;
+
+width:50%;
+float:left;
+}
+#contenu-client{
+height: 210px;
+overflow-y: scroll;
+width:98%;
+}
+#contenu-ligne-commande{
+height:450px;
+overflow-y: scroll;
+}
+.input{
+margin:10px;
+padding:10px;
+width:90%;
+}
+#BtnCherch{
+display:block;
+margin-left:35px;
+margin-right:28px;
+background-color: #2A3F6B;
+}
+#BtnCherchMod{
+display:none;
+margin-left:35px;
+margin-right:28px;
+background-color: #2A3F6B;
+}
+#item-client{
+display:block;
+background:#eff6f7;
+margin-left:5px;
+margin-right:5px;
+color:#000;
+font-weight:bold;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+}
+#nomClient{
+display:inline-block;
+padding:10px;
+}
+#telClient{
+display:inline-block;
+padding:20 px;
+}
+#aucuneComm{
+Color:#737373;
+padding-left:20px;
+padding-right:20px;
+padding-top:30%;
+font-size:14px;
+}
+.nbrpiece{
+width:50px;
+padding:10px;
+margin-right:30px;
+}
+.creer{
+display:inline-block;
+width:48%;
+}
+.miseAjourLigne{
+margin-left:2px;
+margin-right:2px;
+padding:5px 5px 20px 5px;
+border:2px solid #727a7d;
+border-radius:10px;
+}
+
+.input-ajclient{
+width:70%;
+
+}
+.label-form{
+width:20%;
+}
+#txt-service{
+width:30%;
+font-size:14px;
+font-weight:bold;
+margin:5px;
+padding:20px 2px 2px 2px;
+background:#ffc400;
+color:#ed1c24;
+border-radius:0px;
+
+}
+.typeService{
+color:#ed1c24;
+margin:5px;
+font-size:14px;
+font-weight:bold;
+}
+.liste-entrer3{
+background:#e7ebed;
+}
+.conf-client{
+float:right;
+
+}
+.selectCathProd1{
+border:10px solid green;
+
+}
+.selectCathProd2{
+border:10px solid #fff;
+  background-color: #fff;
+}
+.selectProd1{
+border:10px solid #ffc400;
+
+}
+.selectProd2{
+border:10px solid #fff;
+
+}
+#admin-compta{
+display:inline;
+}
+#admin-produits{
+display:inline;
+}
+#admin-agents{
+display:inline;
+}
+.contenu-clt{
+display:none;
+}
+
+.img-prod{
+width:75px;
+height:105px;
+}
+
+/* dev 30/04/2015 */
+#interface-caisse{
+display:block;
+min-height:100%;
+}
+#tkt-pos-caisse{
+width:227px;
+display:none;
+visibility:visible;
+}
+.tik-date-imp-ticket{
+border-top:3px solid #000;
+border-bottom:3px solid #000;
+}
+
+.list-art-imp-ticket{
+display:block;
+}
+.item-list-art-imp-ticket{
+display:inline-block;
+padding:5px;
+font-size:12px;
+}
+.imp-article{
+width:50%;
+}
+.imp-qte{
+width:15%;
+}
+.imp-prix-ttc{
+width:30%;
+}
+.imp-item-prod{
+padding:10px;
+border-bottom:1px solid #000;
+font-size:10px;
+}
+#codeabar{
+display:block;
+}
+
+/* agent */
+.cont-agent{
+background:#fff;
+
+}
+
+#bloc-agent{
+margin:5px;
+display:inline-block;
+width: 32.3%;
+background:#fff;
+border-radius:5px;
+border:1px solid #ddd;
+}
+.img-bloc-agent{
+float:left;
+padding:10px;
+display:inline-block;
+width:35%;
+}
+.cont-bloc-agent{
+margin-top:5px;
+margin-bottom:5px;
+display:inline-block;
+width:64%;
+}
+#tit-cont-bloc-agent{font-weight:bold;
+text-transform: uppercase;
+}
+.bl-list-mod-prod{
+margin:10px;
+display:inline-block;
+width:18%;
+}
+
+.selectCouleur2{
+border:1px solid #000;
+}
+
+.selectCouleur1{
+border:5px solid green;
+}
+
